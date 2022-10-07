@@ -21,9 +21,8 @@
     border: 1px solid var(--bg_primary);
 }
 
-p{
-    display: flex;
-    align-self: center;
+#wiew{
+    display: none;
 }
 
 .btn_s{

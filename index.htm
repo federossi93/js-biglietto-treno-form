@@ -9,21 +9,37 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Document</title>
 </head>
-<body>
-    <div class="container  pt-5">
+<body class="bg_primary">
 
-            <h5>Nome</h5>
-            <input type="text" name="" id="nome" value="" >
+    
+    <h1 class="text-center text-uppercase text-light py-4">clacola il prezzo del tuo biglietto</h1>
+    
+    <section class="calcolo_biglietto">
+        <div class="container py-5 text-bg-light rounded-3">
+            <div class="row row-cols-3 text-center">
+                <div class="col">
+                    <h5 class="primary ">Nome cognome</h5>
+                    <input class="border_prime rounded-3" type="text" name="" id="nome" value="" >
+                </div>
 
-            <h5>Km</h5>
-            <input type="text" name="" id="km" value=""> 
+                <div class="col">
+                    <h5 class="primary ">Km da percorrere</h5>
+                    <input class="border_prime rounded-3" type="text" name="" id="km" value=""> 
+                </div>
 
-            <h5>anni</h5>
-            <input type="text" name="" id="anni" value=""> 
+                <div class="col">
+                    <h5 class="primary ">fascia d'età</h5>
+                    <input class="border_prime rounded-3" type="text" name="" id="anni" value=""> 
+                </div>
+            </div>
+            <div class="text-center pt-5">
+                <button class="btn_s" id="genera">Genera</button>
+                <button class="btn_s">Annulla</button>
+            </div>
+        </div>
 
-            <button id="genera">genera</button>
-
-    </div>
+    </section>
+    
 
 
 

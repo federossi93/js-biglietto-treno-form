@@ -1,0 +1,28 @@
+:root{
+    --bg_name: #808080;
+    --bg_primary: #B91450;
+    --bg_btn: #CCCCCC;
+
+}
+
+.bg_primary{
+    background-color: var(--bg_primary);
+}
+
+.primary{
+    color: var(--bg_primary);
+}
+
+.border_prime{
+    border: 1px solid var(--bg_primary);
+}
+
+.btn_s{
+    border: none;
+    color: var(--bg_primary);
+    background-color: var(--bg_btn);
+    border: 1px solid var(--bg_primary);
+    border-radius: 0.2rem;
+    margin: 0 0.5rem;
+    display: inline-block;
+}

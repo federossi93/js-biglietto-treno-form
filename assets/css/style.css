@@ -13,8 +13,17 @@
     color: var(--bg_primary);
 }
 
+.bg_name{
+    background-color: var(--bg_name);
+}
+
 .border_prime{
     border: 1px solid var(--bg_primary);
+}
+
+p{
+    display: flex;
+    align-self: center;
 }
 
 .btn_s{

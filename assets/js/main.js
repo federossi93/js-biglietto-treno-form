@@ -20,20 +20,27 @@ button.addEventListener('click' , function(){
 
     let biglietto = km.value * prezzo 
 
+    let nomePasseggero = document.getElementById('nome_passeggero').innerHTML =(nome.value)
+    //console.log(nome.value);
+    //console.log(km.value);
+    //console.log(anni.value);
+    document.getElementById('costo_biglietto').innerHTML =(biglietto).toFixed(2) + (' €')
+    //console.log(biglietto);
+    document.getElementById('random').innerHTML = Math.floor((Math.random() * 100000) + 1)
 
-    console.log(nome.value);
-    console.log(km.value);
-    console.log(anni.value);
-    console.log(biglietto);
+    document.getElementById('carrozza').innerHTML = Math.floor((Math.random() * 10) + 1)
+
 
     if (anni.value < 18){
         let discount = (biglietto - biglietto * 0.2)
+        let scontoMinore = document.getElementById('sconto').innerHTML =('Sconto Minorenne')
         console.log(discount.toFixed(2))
 
 } else if (anni.value > 65){
         let discount = (biglietto - biglietto * 0.4)
+        let scontoAnziano = document.getElementById('sconto').innerHTML =('Sconto Anziano')
         console.log(discount.toFixed(2))
-}
+} 
 })
 
 
